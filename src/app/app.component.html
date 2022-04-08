@@ -1,0 +1,12 @@
+<p>
+  En utilisant le composant humeur, paramétrer la propriété monHumeur avec les valeurs : 'bon', 'moyen' ou 'bof'
+</p>
+
+<app-humeur [monHumeur]= "valueMonHumeur"></app-humeur>
+
+<app-humeur [monHumeur]="'bof'"></app-humeur>
+<app-humeur monHumeur="bon"></app-humeur>
+
+
+<button (click)="changeHumeur()">
+  change</button>
